@@ -11,9 +11,10 @@ services:
         source: ./data
         target: /data
     environment:
-      - FOUNDRY_PASSWORD=<your_password>
-      - FOUNDRY_USERNAME=<your_username>
+      - FOUNDRY_PASSWORD=Greb1605*!
+      - FOUNDRY_USERNAME=dugreb@gmail.com
       - FOUNDRY_ADMIN_KEY=atropos
+      - FOUNDRY_LICENSE_KEY=VXBV-KRV4-SWTM-TKWJ-FASW-RAFX
       # - CONTAINER_CACHE=/data/container_cache
       # - CONTAINER_CACHE_SIZE=
       # - CONTAINER_PATCHES=/data/container_patches
@@ -37,7 +38,6 @@ services:
       # - FOUNDRY_IP_DISCOVERY=
       # - FOUNDRY_LANGUAGE=
       # - FOUNDRY_LOCAL_HOSTNAME=
-      # - FOUNDRY_LICENSE_KEY=
       # - FOUNDRY_MINIFY_STATIC_FILES=
       # - FOUNDRY_PASSWORD_SALT=
       # - FOUNDRY_PROTOCOL=
