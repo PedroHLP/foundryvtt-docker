@@ -16,7 +16,6 @@ services:
       - FOUNDRY_ADMIN_KEY=atropos
       - FOUNDRY_LICENSE_KEY=VXBV-KRV4-SWTM-TKWJ-FASW-RAFX
       - FOUNDRY_VERSION=12.331
-      - FOUNDRY_RELEASE_URL=https://foundryvtt.com/releases/download?build=331&platform=linux
       - CONTAINER_VERBOSE=true
     ports:
       - target: 30000
