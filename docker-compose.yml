@@ -15,6 +15,7 @@ services:
       - FOUNDRY_USERNAME=dugreb@gmail.com
       - FOUNDRY_ADMIN_KEY=atropos
       - FOUNDRY_LICENSE_KEY=VXBV-KRV4-SWTM-TKWJ-FASW-RAFX
+      - FOUNDRY_RELEASE_URL=https://foundryvtt.com/releases/download?build=331&platform=linux
       # - CONTAINER_CACHE=/data/container_cache
       # - CONTAINER_CACHE_SIZE=
       # - CONTAINER_PATCHES=/data/container_patches
@@ -43,7 +44,6 @@ services:
       # - FOUNDRY_PROTOCOL=
       # - FOUNDRY_PROXY_PORT=
       # - FOUNDRY_PROXY_SSL=false
-      # - FOUNDRY_RELEASE_URL=
       # - FOUNDRY_ROUTE_PREFIX=
       # - FOUNDRY_SSL_CERT=
       # - FOUNDRY_SSL_KEY=
